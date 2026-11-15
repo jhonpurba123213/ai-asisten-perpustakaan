@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Rahasia aplikasi
+.env
+.streamlit/secrets.toml
+
+# Database dan data lokal
+*.sql
+uploads/
+uploads_backup/
+vectorstore/
+vectorstore_backup/
+
+# File sementara
+*.log
+.DS_Store
+# Database lokal
+*.db
+*.sqlite
+*.sqlite3
+
+# File konfigurasi rahasia
+config.ini
+# File backup aplikasi
+app_backup.py
